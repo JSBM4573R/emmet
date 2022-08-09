@@ -1,0 +1,18 @@
+nav>ul>li
+div+p+bq
+div+div>p>span+em^bq
+div+div>p>span+em^^^bq
+ul>li*5
+div>(header>ul>li*2>a)+footer>p
+(div>dl>(dt+dd)*3)+footer>p
+div#header
+div.class1
+div#footer.class1.class2.class3
+td[title="Hello world!" colspan=3]
+ul>li.item$*5
+ul>li.item$$$*5
+ul>li.item$@-*5
+ul>li.item$@3*5
+ul>li.item$@-3*5
+a{Click me}
+nav.menuNav>ul>li.menuNav-item*8>a{Apartado $}

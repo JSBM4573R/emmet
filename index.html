@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>introduction | Emmet</title>
+</head>
+<body>
+    <!-- nav>ul>li -->
+    <nav>
+        <ul>
+            <li></li>
+        </ul>
+    </nav>
+
+    <nav class="menu">
+        <ul class="menu__list">
+            <li class="menu__link">Atributo</li>
+            <li class="menu__link">Atributo</li>
+            <li class="menu__link">Atributo</li>
+            <li class="menu__link">Atributo</li>
+            <li class="menu__link">Atributo</li>
+        </ul>
+    </nav>
+
+    <!-- div+p+bq -->
+    <div></div>
+    <p></p>
+    <blockquote></blockquote>
+
+    <div class="container"></div>
+    <p class="parrafo"></p>+
+    <blockquote class="cita"></blockquote>
+
+    <!-- div+div>p>span+em^bq -->
+    <div></div>
+    <div>
+        <p><span></span><em></em></p>
+        <blockquote></blockquote>
+    </div>
+
+    <!-- div+div>p>span+em^^^bq -->
+    <div></div>
+    <div>
+        <p><span></span><em></em></p>
+    </div>
+    <blockquote></blockquote>
+
+    <!-- div+(div>p>span+em)+bq -->
+    <div></div>
+    <div>
+        <p><span></span><em></em></p>
+    </div>
+    <blockquote></blockquote>
+
+    <!-- div>(header>ul>li*2>a)+footer>p -->
+    <div>
+        <header>
+            <ul>
+                <li><a href=""></a></li>
+                <li><a href=""></a></li>
+            </ul>
+        </header>
+        <footer>
+            <p></p>
+        </footer>
+    </div>
+
+    <!-- (div>dl>(dt+dd)*3)+footer>p -->
+    <div>
+        <dl>
+            <dt></dt>
+            <dd></dd>
+            <dt></dt>
+            <dd></dd>
+            <dt></dt>
+            <dd></dd>
+        </dl>
+    </div>
+    <footer>
+        <p></p>
+    </footer>
+
+    <!-- div#footer.class1.class2.class3 -->
+    <div id="footer" class="class1 class2 class3"></div>
+
+    <!-- footer.footer.footer--modifier>nav.menu>ul.menu__list>(li.menu__link>a{atributo $})*3 -->
+    <footer class="footer footer--modifier">
+        <nav class="menu">
+            <ul class="menu__list">
+                <li class="menu__link"><a href="">atributo 1</a></li>
+                <li class="menu__link"><a href="">atributo 2</a></li>
+                <li class="menu__link"><a href="">atributo 3</a></li>
+            </ul>
+        </nav>
+    </footer>
+
+    <!-- td[title="Hello world!" colspan=3] -->
+    <td title="Hello world!" colspan="3"></td>
+
+    <!-- ul>li.item$$$*5 -->
+    <ul>
+        <li class="item001"></li>
+        <li class="item002"></li>
+        <li class="item003"></li>
+        <li class="item004"></li>
+        <li class="item005"></li>
+    </ul>
+
+    <!-- ul>li.item$@-*5 -->
+    <ul>
+        <li class="item5"></li>
+        <li class="item4"></li>
+        <li class="item3"></li>
+        <li class="item2"></li>
+        <li class="item1"></li>
+    </ul>
+
+    <!-- ul>li.item$@3*5 -->
+    <ul>
+        <li class="item3"></li>
+        <li class="item4"></li>
+        <li class="item5"></li>
+        <li class="item6"></li>
+        <li class="item7"></li>
+    </ul>
+
+    <!-- a{Click me} -->
+    <a href="">Click me</a>
+
+</body>
+</html>
