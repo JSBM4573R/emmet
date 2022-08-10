@@ -8,6 +8,8 @@ Es ni más ni menos que un plugin de diseño que se adapta a los editores de tex
 ## ¿Como funciona?
 La forma de escribir para que el plugin haga su trabajo sigue las sintaxis de HTML y CSS de manera que no es que tengas que escribir instrucciones extrañas para que genere el código que ya conoces, para que veas lo sencillo que es generar estructuras complejas con una linea de código mira este ejemplo:
 <br>
+<br>
 nav.menuNav>ul>li.menuNav-item*8>a{Apartado $}
+<br>
 <br>
 En apariencia es una linea de texto en el que distinguimos elementos html, en concreto vemos la nueva etiqueta de html5 de navegacion nav los elementos de una lista no ordenada ul y li y tambien los enlaces a.
