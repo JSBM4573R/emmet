@@ -1,6 +1,6 @@
 ## ¿Qué es Emmet?
-18 diciembre, 2014 Diseño Web
-Si lo tuyo es el diseño web y entras en blogs y foros de este tema, seguramente habrás escuchado hablar de Emmet o de Zen-coding, los dos se refieren a lo mismo (solo que el proyecto comenzó llamandose Zen-coding y ahora se llama Emmet).
+Emmet es un conjunto de complementos para editores de texto que permiten la codificación y edición de alta velocidad en HTML, XML, XSL y otros formatos de código estructurado a través de la asistencia de contenido. Emmet, escribe código HTML y CSS a base de abreviaciones.
+Para los desarrolladores de páginas web, que trabajan con archivos http, no es suficiente un editor de texto simple, se requiere en concreto para el frontend, Emmet da una vuelta de tuerca más para hacerte altamente productivo, se trata de un plugin que a base de escribir pequeñas abreviaciones genera grandes estructuras de código HTML y CSS.
 
 ## ¿Para que vale?
 Es ni más ni menos que un plugin de diseño que se adapta a los editores de texto mas populares y nos permite escribir nuestro código HTML de forma abreviada, es cierto que hoy en dia existen los snippets que nos permiten generar pequeños fragmentos de código que para nosotros es reusable, pero Emmet va mas allá, no tienes que generarte tus fragmentos de codigo o snippets y luego recordar como los fuiste llamando y que hacia cada uno (ojo que los snippets tambien son un puntazo y en algunos casos conviene usarlos), con Emmet tienes ya todo predefinido, aprende a escribir el codigo de forma abreviada y Emmet ya genera el resto, olvidate de andar creando plantillas de codigo y luego exportandolas si cambias de equipo o de editor, con Emmet instalas el plugin y a correr.
